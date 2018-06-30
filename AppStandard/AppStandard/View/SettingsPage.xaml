@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="AppStandard.SettingsPage" Title="Settings" >
+    
+   <TableView Intent="Settings" HasUnevenRows="true" Margin="10,0">
+        <TableRoot>
+            <TableSection Title="Einstellungen" >
+                <ViewCell Height="50" StyleId="none">
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="15,0,15,0">
+                       <Label  Margin="15,15" VerticalOptions="Center" Text="Logout" Style="{DynamicResource EvolveListItemTextStyleDetail}"/>
+                    </StackLayout>
+                </ViewCell>
+
+                 <ViewCell Height="50" StyleId="none">
+                    <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="15,0,15,0">
+                       <Label  Margin="15,15" VerticalOptions="Center" Text="Passwort ändern" Style="{DynamicResource EvolveListItemTextStyleDetail}"/>
+                    </StackLayout>
+                 </ViewCell>     
+            </TableSection>
+            
+            <TableSection Title="TOUCH ID" >
+               <ViewCell Height="50" StyleId="none" >
+                <Grid Padding="15,15">
+                    <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="60"/> 
+                    </Grid.ColumnDefinitions> 
+                        <Label Grid.Column="0" FontSize="Small" Text="TouchID"></Label>
+                        <Switch VerticalOptions="FillAndExpand" Grid.Column="1" IsToggled="true" HorizontalOptions="FillAndExpand" />
+                    </Grid>
+                </ViewCell>    
+            </TableSection>
+
+             <TableSection Title="Sprachwahl" >
+               <ViewCell Height="50" StyleId="none" >
+                <Grid Padding="15,15">
+                    <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="60"/> 
+                    </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" FontSize="Small" Text="Sprache"></Label>
+                        <Picker Grid.Column="1" ItemsSource="{Binding LanguageList}" WidthRequest="200" SelectedItem="{Binding SelectedLanguage}"/>
+                    </Grid>
+                </ViewCell>    
+            </TableSection>
+            
+        </TableRoot>
+    </TableView>      
+</ContentPage>
