@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Acr.UserDialogs;
 using AppStandard.Interfaces;
 using AppStandard.Services;
 using FreshMvvm;
@@ -67,6 +68,7 @@ namespace AppStandard
         {
             //FreshIOC.Container.Register<IDatabase, MemoryDatabaseService>().AsSingleton();
             FreshIOC.Container.Register<IDatabase, RealmDatabaseService>().AsSingleton();
+            FreshIOC.Container.Register<IUserDialogs>(UserDialogs.Instance);
         }
 
 		protected override void OnStart ()

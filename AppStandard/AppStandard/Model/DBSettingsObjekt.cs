@@ -6,6 +6,9 @@ using Realms;
 
 namespace AppStandard.Model
 {
+    /// <summary>
+    /// DBS ettings objekt.
+    /// </summary>
     public class DBSettingsObjekt : RealmObject
     {
 
