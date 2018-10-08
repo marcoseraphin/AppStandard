@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Plugin.Permissions;
 using Plugin.MediaManager.Forms.Android;
+using Acr.UserDialogs;
 
 namespace AppStandard.Droid
 {
@@ -20,6 +21,7 @@ namespace AppStandard.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity = this;
+            UserDialogs.Init(this);
 
             base.OnCreate(bundle);
 

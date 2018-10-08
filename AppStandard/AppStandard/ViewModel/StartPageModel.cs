@@ -18,9 +18,9 @@ namespace AppStandard
             get;
             set;
         }
-         
 
-        private string VideoUrl = "https://sec.ch9.ms/ch9/e68c/690eebb1-797a-40ef-a841-c63dded4e68c/Cognitive-Services-Emotion_high.mp4";
+
+        private string VideoUrl = "https://pcbackend.pixelnet.de/files/9adeacc0-d34b-4eaf-adc6-53843cb65c12"; // "https://sec.ch9.ms/ch9/e68c/690eebb1-797a-40ef-a841-c63dded4e68c/Cognitive-Services-Emotion_high.mp4";
 
         //private string VideoUrl = "file:///var/mobile/Containers/Data/Application/EE861FD7-AC7B-4035-930A-410E714851A6/Documents/temp/0F308739-2948-4024-BEC6-D55463936641.MOV";
 
