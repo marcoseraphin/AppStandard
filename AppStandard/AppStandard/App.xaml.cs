@@ -53,12 +53,21 @@ namespace AppStandard
         {
             var tabbedNavigation = new FreshTabbedNavigationContainer();
 
+            // Tabbed Based 
+            // =============
             tabbedNavigation.AddTab<StartPageModel>("Home", "tab_home3.png");
             tabbedNavigation.AddTab<SettingsPageModel>("Settings", "tab_settings.png");
-
             Application.Current.MainPage = tabbedNavigation;
-
             tabbedNavigation.SelectedItem = tabbedNavigation.Children[tabpage];
+
+            // Master Detail Based
+            // ===================
+            //var masterDetailNav = new FreshMasterDetailNavigationContainer();
+            //masterDetailNav.Init("Menu");
+            //masterDetailNav.AddPage<StartPageModel>("Start", null);
+            //masterDetailNav.AddPage<SettingsPageModel>("Settings", null);
+            //Application.Current.MainPage = masterDetailNav;
+
         }
 
         /// <summary>
