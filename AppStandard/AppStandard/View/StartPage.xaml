@@ -6,16 +6,8 @@
              x:Class="AppStandard.StartPage" Title="Home">
 
  <ScrollView>
-    <StackLayout>
+    <StackLayout Margin="100">
         <Label Margin="20" Text="{i18n:Translate CaptionLabel}"></Label>
-        <Button Text="Pick Foto" Command="{Binding PickFotoCommand}" ></Button>
-        <Button Text="Take Foto" Command="{Binding TakeFotoCommand}" ></Button>
-        <Button Text="Pick Video" Command="{Binding PickVideoCommand}" ></Button>
-        <Button Text="Take Video" Command="{Binding TakeVideoCommand}" ></Button>
-        <Image Source="{Binding SelectedImage.Source}" WidthRequest="100" HeightRequest="200" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="5"></Image>
-        <forms:VideoView HeightRequest="202" WidthRequest="202" />  
-        <Button Text="Play Video" Command="{Binding PlayVideoCommand}" ></Button>
-        <Button Text="Stop Video" Command="{Binding StopVideoCommand}" ></Button>
     </StackLayout>     
   </ScrollView>
 </ContentPage>

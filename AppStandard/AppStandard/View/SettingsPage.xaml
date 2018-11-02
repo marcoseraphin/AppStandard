@@ -33,14 +33,14 @@
             </TableSection>
 
              <TableSection Title="Sprachwahl" >
-               <ViewCell Height="50" StyleId="none" >
+               <ViewCell Height="100" StyleId="none" >
                 <Grid Padding="15,15">
                     <Grid.ColumnDefinitions>
                       <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="60"/> 
+                      <ColumnDefinition Width="160"/> 
                     </Grid.ColumnDefinitions>
-                        <Label Grid.Column="0" FontSize="Small" Text="Sprache"></Label>
-                        <Picker Grid.Column="1" ItemsSource="{Binding LanguageList}" WidthRequest="200" SelectedItem="{Binding SelectedLanguage}"/>
+                       <Label Grid.Column="0" FontSize="Small" Text="Sprache"></Label>
+                       <Picker Grid.Column="1" ItemsSource="{Binding LanguageList}" WidthRequest="200" SelectedItem="{Binding SelectedLanguage}"/>
                     </Grid>
                 </ViewCell>    
             </TableSection>

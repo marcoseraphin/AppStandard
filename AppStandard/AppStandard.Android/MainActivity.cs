@@ -7,7 +7,6 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Plugin.Permissions;
-using Plugin.MediaManager.Forms.Android;
 using Acr.UserDialogs;
 
 namespace AppStandard.Droid
@@ -24,8 +23,6 @@ namespace AppStandard.Droid
             UserDialogs.Init(this);
 
             base.OnCreate(bundle);
-
-            VideoViewRenderer.Init();
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
