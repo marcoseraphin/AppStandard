@@ -149,6 +149,9 @@
     <PackageReference Include="Xamarin.Essentials">
       <Version>0.11.0-preview</Version>
     </PackageReference>
+    <PackageReference Include="System.Data.SqlClient">
+      <Version>4.6.0-preview3-27014-02</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
