@@ -6,6 +6,6 @@ Includes:
 - offline Realm Database
 - multi language support
 - Xamarin Essentials
-- two smaple Pages (Start Page and Settings)
+- two sample Pages (Start Page and Settings)
 - Tabbed Based or MasterDetail preperation
 
