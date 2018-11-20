@@ -6,7 +6,7 @@ Includes:
 - offline Realm Database
 - multi language support
 - Xamarin Essentials
-- two sample Pages (Start Page and Settings)
+- three sample Pages (Start Page, EditPage and Settings)
 - Tabbed Based or MasterDetail preperation
 - sample Page navigation using MVVM FrameWork with page parameter
 
