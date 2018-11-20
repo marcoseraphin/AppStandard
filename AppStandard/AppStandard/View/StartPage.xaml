@@ -3,11 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:i18n="clr-namespace:AppStandard;assembly=AppStandard"
              xmlns:forms="clr-namespace:Plugin.MediaManager.Forms;assembly=Plugin.MediaManager.Forms"  
-             x:Class="AppStandard.StartPage" Title="Home">
+             x:Class="AppStandard.StartPage" Title="Home" BackgroundColor="Gray">
 
  <ScrollView>
     <StackLayout Margin="100">
-        <Label Margin="20" Text="{i18n:Translate CaptionLabel}"></Label>
+        <Label Text="{i18n:Translate FirstNameLabel}"></Label>
+        <StackLayout Padding="5" BackgroundColor="Teal">
+            <Label Text="{Binding FirstName}" TextColor="White"></Label>
+        </StackLayout>
+             
+        <Button Margin="0,40,0,0" WidthRequest="150" HorizontalOptions="CenterAndExpand" Text="{i18n:Translate EditNameText}" BackgroundColor="Green" TextColor="White" FontSize="14" Command="{Binding EditCommand}"></Button>  
     </StackLayout>     
   </ScrollView>
 </ContentPage>

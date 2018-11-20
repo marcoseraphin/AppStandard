@@ -8,16 +8,29 @@ namespace AppStandard
 {
     public class SettingsPageModel : FreshBasePageModel
     {
+        /// <summary>
+        /// The database service.
+        /// </summary>
         private IDatabase databaseService;
 
+        /// <summary>
+        /// The language list.
+        /// </summary>
         private List<string> languageList = new List<string>()
             {
                 "Deutsch",
                 "English"
             };
 
+        /// <summary>
+        /// Gets the language list.
+        /// </summary>
+        /// <value>The language list.</value>
         public List<string> LanguageList => languageList;
 
+        /// <summary>
+        /// The selected language.
+        /// </summary>
         private string selectedLanguage;
         public string SelectedLanguage
         {
@@ -50,6 +63,10 @@ namespace AppStandard
             }
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:AppStandard.SettingsPageModel"/> class.
+        /// </summary>
+        /// <param name="databaseService">Database service.</param>
         public SettingsPageModel(IDatabase databaseService)
         {
            this.databaseService = databaseService;

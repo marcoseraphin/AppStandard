@@ -64,12 +64,16 @@ namespace AppStandard
 
             if (App.Language == App.LanguageType.German)
             {
-                TranslationTable.Add("de-DE#" + "CaptionLabel", "Startseite");                                
+                TranslationTable.Add("de-DE#" + "FirstNameLabel", "Vorname");
+                TranslationTable.Add("de-DE#" + "EditNameText", "Ändern");
+                TranslationTable.Add("de-DE#" + "SaveNameText", "Speichern");
             }
 
             if (App.Language == App.LanguageType.English)
             {
-                TranslationTable.Add("en-US#" + "CaptionLabel", "Start Page");                                
+                TranslationTable.Add("en-US#" + "FirstNameLabel", "First Name");
+                TranslationTable.Add("en-US#" + "EditNameText", "Change");
+                TranslationTable.Add("en-US#" + "SaveNameText", "Save");
             }
         }
 
