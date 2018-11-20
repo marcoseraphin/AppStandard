@@ -8,4 +8,5 @@ Includes:
 - Xamarin Essentials
 - two sample Pages (Start Page and Settings)
 - Tabbed Based or MasterDetail preperation
+- sample Page navigation using MVVM FrameWork with page parameter
 
