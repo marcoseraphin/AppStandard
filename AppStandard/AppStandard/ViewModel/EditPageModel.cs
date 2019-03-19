@@ -70,7 +70,7 @@ namespace AppStandard
         {
             this.databaseService = database;
         }
-
+         
         /// <summary>
         /// Init the specified initData.
         /// </summary>

@@ -7,7 +7,7 @@
 
  <ScrollView>
     <StackLayout Margin="100">
-        <Label Text="{i18n:Translate FirstNameLabel}"></Label>
+        <Label Text="{i18n:Translate FirstNameLabel}" TextColor="White"></Label>
         <StackLayout Padding="5" BackgroundColor="Teal">
             <Label Text="{Binding FirstName}" TextColor="White"></Label>
         </StackLayout>
