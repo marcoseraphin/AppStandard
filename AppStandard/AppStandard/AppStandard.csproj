@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <SolutionDir>..\</SolutionDir>
   </PropertyGroup>
 
   <ItemGroup>
