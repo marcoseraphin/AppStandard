@@ -1,5 +1,4 @@
-﻿using System;
-using AppStandard.Interfaces;
+﻿using AppStandard.Interfaces;
 using FreshMvvm;
 using Xamarin.Forms;
 
