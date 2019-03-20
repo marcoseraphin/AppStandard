@@ -2,6 +2,9 @@
 using AppStandard.Interfaces;
 using AppStandard.Services;
 using FreshMvvm;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms;
 
 namespace AppStandard
@@ -71,10 +74,11 @@ namespace AppStandard
             FreshIOC.Container.Register<IUserDialogs>(UserDialogs.Instance);
         }
 
-		protected override void OnStart ()
-		{
-			// Handle when your app starts
-		}
+        protected override void OnStart()
+        {
+            // Handle when your app starts
+            AppCenter.Start("ios=4f89b3ec-a070-4863-984e-23b9412f880b;" + "uwp={Your UWP App secret here};" + "android=d024c4c5-3e64-4f25-bc6d-9cdfe57d2bd9;", typeof(Analytics), typeof(Crashes));
+        }
 
 		protected override void OnSleep ()
 		{
