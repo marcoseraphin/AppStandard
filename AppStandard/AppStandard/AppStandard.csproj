@@ -15,6 +15,9 @@
     <PackageReference Include="LiveXAML" Version="2.1.70" />
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="1.14.0" />
     <PackageReference Include="Microsoft.AppCenter.Crashes" Version="1.14.0" />
+    <PackageReference Include="Microsoft.AppCenter" Version="1.14.0" />
+    <PackageReference Include="Microsoft.AppCenter.Push" Version="1.14.0" />
+    <PackageReference Include="Plugin.FirebasePushNotification" Version="2.3.5" />
   </ItemGroup>
 
   <ItemGroup>

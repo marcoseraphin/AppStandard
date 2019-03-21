@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1061438291277",
+    "firebase_url": "https://appstandard-e138a.firebaseio.com",
+    "project_id": "appstandard-e138a",
+    "storage_bucket": "appstandard-e138a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061438291277:android:b4dace3585a0b907",
+        "android_client_info": {
+          "package_name": "com.companyname.AppStandard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061438291277-t0dd1ruqj2vbtvqov6m85h2fr9vspqvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQXwyXj2X09iM_3aHLIeE_Jv4F_8t537U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
