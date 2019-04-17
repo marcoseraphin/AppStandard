@@ -76,6 +76,7 @@ namespace AppStandard
         /// <param name="initData">Init data.</param>
         public override void Init(object initData)
         {
+
             base.Init(initData);
 
             // Get the first name from StartPage for editing

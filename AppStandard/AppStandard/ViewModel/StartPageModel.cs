@@ -15,23 +15,6 @@ namespace AppStandard
         private readonly IDatabase databaseService;
 
         /// <summary>
-        /// The first name label.
-        /// </summary>
-        private string firstNameLabel;
-        public string FirstNameLabel 
-        {
-            get 
-            {
-                return this.firstNameLabel;
-            }
-            set
-            {
-                this.firstNameLabel = value;
-                RaisePropertyChanged();
-            }
-        }
-
-        /// <summary>
         /// The first name.
         /// </summary>
         private string firstName;
@@ -60,7 +43,15 @@ namespace AppStandard
             {
                 return new Command(async () =>
                 {
-                    await CoreMethods.PushPageModel<EditPageModel>(this.FirstName, false, true);
+                    try
+                    {
+                        await CoreMethods.PushPageModel<EditPageModel>(this.FirstName, false, true);
+                    }
+                    catch (Exception ex)
+                    {
+
+                    }
+
                 }
                 );
             }

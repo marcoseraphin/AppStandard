@@ -27,7 +27,7 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignProvision>DevProfile_2018</CodesignProvision>
+    <CodesignProvision>DevProfile_2019</CodesignProvision>
     <CodesignKey>iPhone Developer: Marco Seraphin (9E96NSZWA9)</CodesignKey>
     <MtouchI18n>west</MtouchI18n>
   </PropertyGroup>
@@ -54,7 +54,7 @@
     <CodesignKey>iPhone Developer: Marco Seraphin (9E96NSZWA9)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision>DevProfile_NewMac</CodesignProvision>
+    <CodesignProvision>DevProfile_2019</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
