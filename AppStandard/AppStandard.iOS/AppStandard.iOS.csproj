@@ -140,7 +140,7 @@
       <Version>3.0.0.12</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
-      <Version>4.3.0.991221</Version>
+      <Version>4.4.0.991265</Version>
     </PackageReference>
     <PackageReference Include="Acr.UserDialogs">
       <Version>7.0.35</Version>
@@ -152,16 +152,16 @@
       <Version>2.1.73</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Analytics">
-      <Version>2.6.2</Version>
+      <Version>2.6.4</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Crashes">
-      <Version>2.6.2</Version>
+      <Version>2.6.4</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter">
-      <Version>2.6.2</Version>
+      <Version>2.6.4</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Push">
-      <Version>2.6.2</Version>
+      <Version>2.6.4</Version>
     </PackageReference>
     <PackageReference Include="Realm">
       <Version>3.4.0</Version>
