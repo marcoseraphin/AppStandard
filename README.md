@@ -12,6 +12,10 @@ Includes:
 - sample Page navigation using MVVM FrameWork with page parameter
 - Customized Master/Detail-Container (AppStandardFreshMasterDetailNavigationContainer)
 
+## AppStandardFreshMasterDetailNavigationContainer
+
+![image](https://cdn.smattycore.de/github/appstandardfreshmasterdetailnavigationcontainer.png)
+
 ## Changelog
 
 **2nd February 2020**
