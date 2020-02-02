@@ -10,7 +10,7 @@ Includes:
 - three sample Pages (Start Page, EditPage and Settings)
 - Tabbed Based or MasterDetail preperation
 - sample Page navigation using MVVM FrameWork with page parameter
-- New Master/Detail-Container (AppStandardFreshMasterDetailNavigationContainer)
+- Customized Master/Detail-Container (AppStandardFreshMasterDetailNavigationContainer)
 
 ## Changelog
 
