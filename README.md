@@ -16,4 +16,4 @@ Includes:
 
 **2nd February 2020**
 
-Apart from updating NuGet packages I wrote a new FreshMasterDetailNavigationContainer which is based upon it but has the possibility to add a AppStandardNavMenuItem with not only a page name but also an icon. Apart from that I did a little workaround to deselect a clicked item automatically instead keeping the ugly orange backgrounded item selected.
+Apart from updating NuGet packages there is a new FreshMasterDetailNavigationContainer which is based upon it but has the possibility to add a AppStandardNavMenuItem with not only a page name but also an icon. There is also a little workaround to deselect a clicked item automatically instead keeping the ugly orange backgrounded item selected.
