@@ -1,4 +1,5 @@
 ﻿using Acr.UserDialogs;
+using AppStandard.Container;
 using AppStandard.Interfaces;
 using AppStandard.Services;
 using FreshMvvm;
@@ -49,20 +50,28 @@ namespace AppStandard
         {
             var tabbedNavigation = new FreshTabbedNavigationContainer();
 
-            // Tabbed Based 
-            // =============
-            tabbedNavigation.AddTab<StartPageModel>("Home", "tab_home3.png");
-            tabbedNavigation.AddTab<SettingsPageModel>("Settings", "tab_settings.png");
-            Application.Current.MainPage = tabbedNavigation;
-            tabbedNavigation.SelectedItem = tabbedNavigation.Children[tabpage];
+            //// Tabbed Based 
+            //// =============
+            //tabbedNavigation.AddTab<StartPageModel>("Home", "tab_home3.png");
+            //tabbedNavigation.AddTab<SettingsPageModel>("Settings", "tab_settings.png");
+            //Application.Current.MainPage = tabbedNavigation;
+            //tabbedNavigation.SelectedItem = tabbedNavigation.Children[tabpage];
 
-            // Master Detail Based
-            // ===================
+            //// Master Detail Based
+            //// ===================
             //var masterDetailNav = new FreshMasterDetailNavigationContainer();
             //masterDetailNav.Init("Menu");
             //masterDetailNav.AddPage<StartPageModel>("Start", null);
             //masterDetailNav.AddPage<SettingsPageModel>("Settings", null);
             //Application.Current.MainPage = masterDetailNav;
+
+            // Master Detail Based on new AppStandardFreshMasterDetailNavigationContainer
+            // ===================
+            var masterDetailNav = new AppStandardFreshMasterDetailNavigationContainer();
+            masterDetailNav.Init("Menu");
+            masterDetailNav.AddPage<StartPageModel>(new AppStandardNavMenuItem("Start", "tab_home3.png"), null);
+            masterDetailNav.AddPage<SettingsPageModel>(new AppStandardNavMenuItem("Settings", "tab_settings.png"), null);
+            Application.Current.MainPage = masterDetailNav;
         }
 
         /// <summary>
