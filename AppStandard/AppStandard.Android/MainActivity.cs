@@ -21,7 +21,7 @@ namespace AppStandard.Droid
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
-            Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity = this;
+            //Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity = this;
             UserDialogs.Init(this);
 
             base.OnCreate(bundle);

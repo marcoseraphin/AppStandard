@@ -82,7 +82,7 @@ namespace AppStandard.Services
         public bool UpdateDBValue(string key, string value)
         {
             try
-            {
+            { 
                 var valueObject = (from k in realmDB.All<DBSettingsObjekt>()
                                    where k.Key == key
                                    select k);

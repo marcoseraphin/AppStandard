@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Android.App;
 using Android.OS;
 using Android.Runtime;
-using Plugin.CurrentActivity;
 //using Plugin.FirebasePushNotification;
 //using Plugin.FirebasePushNotification.Abstractions;
 //using Android.Gms.Common;
